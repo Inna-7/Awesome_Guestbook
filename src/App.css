@@ -1,0 +1,30 @@
+header{
+  width: 100%;
+  padding: 14px 0 14px 24px;
+  background-color: #EF5742;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main{
+  display: flex;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+main .add-visitor{
+ width: 40%;
+}
+main .visitor-list{
+ width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  main{
+    flex-direction: column;
+  }
+  main .add-visitor{
+    width: 100%;
+   }
+}

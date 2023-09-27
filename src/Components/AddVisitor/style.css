@@ -1,0 +1,22 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+#main .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#main .input{
+    margin: 10px 0;
+}
+
+#main .checkbox{
+    margin: 10px 0;
+}
+
+#main .buttons{
+    display: flex;
+    gap: 24px;
+}
